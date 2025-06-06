@@ -1,0 +1,30 @@
+.ludo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.ludo-box-container {
+  display: grid;
+  grid-template-columns: repeat(15, 40px);
+  grid-template-rows: repeat(15, 40px);
+  gap: 0;
+  background: #f0f0f0;
+}
+
+.home-green {
+  background: #4ade80;
+}
+
+.home-yellow {
+  background: #fde047;
+}
+
+.home-red {
+  background: #f87171;
+}
+
+.home-blue {
+  background: #60a5fa;
+}
