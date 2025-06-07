@@ -13,18 +13,23 @@
   background: #f0f0f0;
 }
 
-.home-green {
+.home-green, .safe-green {
   background: #4ade80;
 }
 
-.home-yellow {
+.home-yellow, .safe-yellow {
   background: #fde047;
 }
 
-.home-red {
+.home-red, .safe-red {
   background: #f87171;
 }
 
-.home-blue {
+.home-blue, .safe-blue {
   background: #60a5fa;
 }
+
+.cell-lines, .safe-path {
+  border: black 0.05px solid;
+}
+

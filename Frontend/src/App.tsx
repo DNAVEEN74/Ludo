@@ -1,11 +1,13 @@
 import './App.css'
-import LudoBoard from './components/ludoBoard'
+import HomeBoard from './components/homeBoard'
+// import LudoBoard from './components/ludoBoard'
 
 function App() {
 
   return (
     <>
-      <LudoBoard />
+      {/* <LudoBoard /> */}
+      <HomeBoard backgroundcolor='green' />
     </>
   )
 }
